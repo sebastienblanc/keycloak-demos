@@ -1,0 +1,9 @@
+{
+  "realm": "sebidemo",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApFoDTfbBZ5VHcYusvjFs9vPwm+DrpXr3Q6bdSVeOnq0R4Pf/QVzeeSZpjTHv+ZseOKBAKN7t82Id529vhEXCu5sW7o75IghaEyrr76uIftagVJ3PRrHax59P30hFuGNgXNjgtS1o3hfA2zlqmq2CImR1ZYPvm06S56dT/u4HhXn+BhT6j5+cDxJpIzZpM2ueg9NPJOZYKJrW+zybP1mi0XmpeD4xxpb4Yl8mx+ub4PD2b7g7bqd8GzSbiJzH0aYLczQKUAad94rk+N0V8X4XkQQBf7dDgP5eOzrP0AXEEskJvLrta5hw/05NeFcsRA3h/OfSItz/N09wr5zHxH/B3QIDAQAB",
+  "bearer-only": true,
+  "auth-server-url": "http://localhost:8081/auth",
+  "ssl-required": "external",
+  "resource": "prospect-service",
+  "enable-cors" : true
+}
