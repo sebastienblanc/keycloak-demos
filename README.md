@@ -8,9 +8,7 @@ This repo contains a frontend and a backend application that are both protected 
 ## Setup
 ### Keycloak server
 
-There are different options to deploy and setup a Keycloak server, check [here](https://keycloak.gitbooks.io/server-installation-and-configuration/content/topics/installation.html) for the different options.
-
-In this quickstart we made it easy by providing a KeyCloak Server based on Wildfly-Swarm :
+There are different options to deploy and setup a Keycloak server, you can check [here](https://keycloak.gitbooks.io/server-installation-and-configuration/content/topics/installation.html) for the different options but in this quickstart we made it easy by providing a KeyCloak Server based on Wildfly-Swarm :
 
 * Go to `KeycloakServer` folder.
 * Run `mvn wildfly-swarm:run`
@@ -41,10 +39,10 @@ The frontend application consist of standalone Web Application build with Angula
 * Run `mvn wildfly-swarm:run`
 * Browse to `http://localhost:9000/`
 * You will be redirect to the Keycloak login screen, you use `sebi/password` as credentials
-* If you click `Load cusotmers` in the header menu, a list of customers will retrieved from the microservice we deployed just before
+* If you click `Load customers` in the header menu, a list of customers will be retrieved from the microservice we deployed just before. 
 
 __note__ : The folder `angular-client` contains the source of the angular app, you can also run it from there but you will need to have `npm` , `node` and `bower` installed.
 To run it :
-* npm install
+* npm install 
 * bower install
 * grunt serve
