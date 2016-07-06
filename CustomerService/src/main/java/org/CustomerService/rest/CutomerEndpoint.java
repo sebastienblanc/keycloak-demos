@@ -15,7 +15,7 @@ public class CutomerEndpoint {
 	@GET
 	@Produces("application/json")
 	public List<String> getProspects() {
-		ArrayList<String> prospects = new ArrayList<String>();
+		final ArrayList<String> prospects = new ArrayList<String>();
 		prospects.add("Kyle");
 		prospects.add("John");
 		prospects.add("Sarah");
