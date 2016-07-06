@@ -1,5 +1,5 @@
 {
-    "realm": "other",
+    "realm": "sebidemo",
     "enabled": true,
     "accessTokenLifespan": 60,
     "accessCodeLifespan": 60,
