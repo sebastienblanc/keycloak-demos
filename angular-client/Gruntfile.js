@@ -412,6 +412,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '*.html',
+            'keycloak.json',
             'images/{,*/}*.{webp}',
             'styles/fonts/{,*/}*.*'
           ]

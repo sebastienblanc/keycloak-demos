@@ -11,7 +11,7 @@
    <security-constraint>
         <web-resource-collection>
             <web-resource-name>Customers</web-resource-name>
-            <url-pattern>/customers/*</url-pattern>
+            <url-pattern>/rest/customers/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>user</role-name>

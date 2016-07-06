@@ -29,7 +29,7 @@ angular.element(document).ready(function ($http) {
 module.controller('GlobalCtrl', function($scope, $http) {
     $scope.customers = [];
     $scope.reloadData = function() {
-        $http.get("http://localhost:8080/rest/customers").success(function(data) {
+        $http.get("http://localhost:8082/rest/customers").success(function(data) {
             $scope.customers = angular.fromJson(data);
         });
 
